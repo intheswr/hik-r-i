@@ -2,7 +2,6 @@ library(httr)
 library(jsonlite)
 library(sjmisc)
 library(stringr)
-library(config)
 source("config.R")
 
 read_list <- function(filepath) {
